@@ -1,0 +1,12 @@
+.viewport-wrapper {
+    position: relative;
+    width: 100%;
+    float: left;
+    background-color: #ffffff;
+}
+
+@media print {
+    body{
+        filter: invert(100%);
+    } 
+}
